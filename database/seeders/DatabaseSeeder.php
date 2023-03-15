@@ -52,7 +52,6 @@ class DatabaseSeeder extends Seeder
         $states = [
             ["estado" => "Solicitado"],
             ["estado" => "Asignado"],
-            ["estado" => "En Curso"],
             ["estado" => "Terminado"],
             ["estado" => "Cancelado"]
         ];
