@@ -14,9 +14,8 @@ class Service extends Model
 
     const ESTADO_SOLICITADO = 1;
     const ESTADO_ASIGNADO = 2;
-    const ESTADO_EN_CURSO = 3;
-    const ESTADO_TERMINADO = 4;
-    const ESTADO_CANCELADO = 5;
+    const ESTADO_TERMINADO = 3;
+    const ESTADO_CANCELADO = 4;
     
     protected $fillable = [
         'user_id',
